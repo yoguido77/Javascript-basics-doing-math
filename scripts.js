@@ -8,5 +8,5 @@ var secondsPerDay = secondsPerMin * minPerHour * hoursPerDay;
 document.write('There are ' + secondsPerDay + ' seconds in a day');
 
 var yearsAlive = 39;
-var secondsAlive = yearsAlive * secondsPerDay;
+var secondsAlive = secondsPerDay * daysPerWeek * weeksPerYear * yearsAlive;
 document.write(" I've been alive for more than " + secondsAlive + " seconds");
